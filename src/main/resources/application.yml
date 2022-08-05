@@ -1,6 +1,6 @@
 spring:
   application:
-    name: SpringBootXRayDemoApplication  
+    name: DEVOPS-SUPPORT-API  
   h2:
     console:
       enabled: false 

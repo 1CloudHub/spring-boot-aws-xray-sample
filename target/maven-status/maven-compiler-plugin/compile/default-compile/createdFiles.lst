@@ -1,0 +1,14 @@
+com\anthunt\aws\spring\boot\xray\config\AWSXRayConfig.class
+com\anthunt\aws\spring\boot\xray\exception\ApplicationNameNullException.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayTracingStatement.class
+META-INF\spring-configuration-metadata.json
+com\anthunt\aws\spring\boot\xray\controller\TestController.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayFeignClientConfig.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayInspector.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayTracingConnection.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayTracingStatement$TracingStatementHandler.class
+com\anthunt\aws\spring\boot\xray\service\clients\TestClient.class
+com\anthunt\aws\spring\boot\xray\SpringBootXRayApplication.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayTracingDataSource.class
+com\anthunt\aws\spring\boot\xray\service\TestService.class
+com\anthunt\aws\spring\boot\xray\config\AWSXRayHikariConfig.class

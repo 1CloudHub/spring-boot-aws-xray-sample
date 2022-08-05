@@ -6,7 +6,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.amazonaws.xray.interceptors.TracingInterceptor;
 import com.amazonaws.xray.spring.aop.XRayEnabled;
-import com.anthunt.aws.spring.boot.xray.dao.TestMapper;
 import com.anthunt.aws.spring.boot.xray.service.clients.TestClient;
 
 import lombok.extern.slf4j.Slf4j;
@@ -26,7 +25,7 @@ public class TestService {
 	
 	public void test() {
 		try {
-		Thread.sleep(29000);
+		Thread.sleep(20000);
 		}
 		catch(Exception e) {
 			

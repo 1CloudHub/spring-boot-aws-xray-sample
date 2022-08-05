@@ -15,17 +15,17 @@ public class TestController {
 	@Autowired
 	private TestService testService;
 	
-	@RequestMapping("index")
+	@RequestMapping("todo")
 	public String index() {
 		
 		testService.test();
 		
-		return "SUCCESS";
+		return "SUCCESS: 20 Seconds wait time. Open X-Ray to see the result";
 	}
 	
 	@RequestMapping("/")
 	public String health() {			
-		return "HEALTH OK";
+		return "HEALTH OK. Hit /todo to access TODO API";
 	}
 	
 }

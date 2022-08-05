@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "description": "SpringBootXRayDemoApplication",
+      "description": "DEVOPS-SUPPORT_API",
       "host": "*",
       "http_method": "*",
       "url_path": "/api/*",
